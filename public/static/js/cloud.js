@@ -12,9 +12,9 @@
 			$body = $("body");
             $cloud1 = $("#cloud1");
 			$cloud2 = $("#cloud2");
-			
+
             mainwidth = $main.outerWidth();
-         
+
         }
     );
 
@@ -27,15 +27,15 @@
         if (offset2 >= mainwidth) {
 			 offset2 =  -580;
         }
-		
+
         offset1 += 1.1;
 		offset2 += 1;
         $cloud1.css("background-position", offset1 + "px 100px")
-		
+
 		$cloud2.css("background-position", offset2 + "px 460px")
     }, 70);
-	
-	
+
+
 	setInterval(function bg() {
         if (offsetbg >= mainwidth) {
             offsetbg =  -580;
