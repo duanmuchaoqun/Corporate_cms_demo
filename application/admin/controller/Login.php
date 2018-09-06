@@ -39,9 +39,9 @@ class Login extends Controller
      */
     public function index()
     {
-        $session = Session::get('manager_user');
-        if (!empty($session) && isset($session)) {
-            $this->redirect('Index/index');
+        $result = $this->model->isLogin();
+        if ($result['code'] == 100) {
+            $this->redirect('Main/index');
         }
         return $this->fetch('Login');
     }
@@ -58,7 +58,7 @@ class Login extends Controller
         $result = $this->model->userLogin($params['username'], $params['password']);
         switch ($result['code']) {
             case 100:
-                $this->success($result['msg'], 'Index/index');
+                $this->success($result['msg'], 'Main/index');
                 break;
             case 101:
                 $this->error($result['msg'], 'Login/index');
@@ -69,11 +69,24 @@ class Login extends Controller
         }
     }
 
+    /**
+     * 注销操作操作
+     *
+     */
     public function loginOut()
     {
-        $session = Session::get('manager_user');
-        if (!empty($session) && isset($session)){
-          
+        $result = $this->model->isLogin();
+        switch ($result['code']){
+            case 100:
+                Session::clear();
+                $this->success('退出成功！！！', 'Login/index');
+                break;
+            case 101:
+                $this->error('请登录！！！', 'Login/index');
+                break;
+            default:
+                $this->error('请登录！！！', 'Login/index');
+                break;
         }
     }
 }

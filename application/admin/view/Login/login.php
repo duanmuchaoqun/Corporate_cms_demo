@@ -42,7 +42,7 @@
     <span class="systemlogo"></span>
 
     <div class="loginbox">
-        <form action="<?php echo url('login/login')?>" method="post">
+        <form action="<?php echo url('Login/Login')?>" method="post">
             <ul>
                 <li><input name="username" type="text" class="loginuser" value="" /></li>
                 <li><input name="password" type="password" class="loginpwd" value="" /></li>

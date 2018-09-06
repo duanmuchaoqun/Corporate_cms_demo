@@ -142,7 +142,7 @@ return [
 
     // 视图输出字符串内容替换
     'view_replace_str'       => [
-        '__STATIC__' =>'../static'
+        '__STATIC__' =>'/static'
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
@@ -158,7 +158,7 @@ return [
     // 错误显示信息,非调试模式有效
     'error_message'          => '页面错误！请稍后再试～',
     // 显示错误信息
-    'show_error_msg'         => false,
+    'show_error_msg'         => true,
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
 

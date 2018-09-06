@@ -17,8 +17,18 @@ class ManagerUser extends BaseModel
         if ($count <= 0) {
             return ['code' => 101, 'data' => [], 'msg' => '用户名或者密码错误！！！'];
         }
-        $managerUser = ['user_name'=>$data['username']];
-        Session::set('manager_user',$managerUser);
+        $managerUser = ['user_name' => $data['username']];
+        Session::set('manager_user', $managerUser);
         return ['code' => 100, 'data' => [], 'msg' => '登陆成功！！！'];
+    }
+
+    public function isLogin()
+    {
+        $user_info = Session::get('manager_user');
+        if ($user_info){
+            return ['code' => 100, 'data' => [], 'msg' => '管理员已经登录！！！'];
+        }else{
+            return ['code' => 101, 'data' => [], 'msg' => '管理员未登录！！！'];
+        }
     }
 }
