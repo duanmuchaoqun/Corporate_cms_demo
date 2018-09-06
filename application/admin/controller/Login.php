@@ -73,7 +73,7 @@ class Login extends Controller
     {
         $session = Session::get('manager_user');
         if (!empty($session) && isset($session)){
-
+          
         }
     }
 }
