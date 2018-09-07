@@ -39,8 +39,8 @@
             <span><img src="__STATIC__/images/leftico01.png" /></span>管理信息
         </div>
         <ul class="menuson">
-            <li><cite></cite><a href="<?php echo url('Index/index'); ?>" target="rightFrame">首页模版</a><i></i></li>
-            <li class="active"><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
+            <li class="active"><cite></cite><a href="<?php echo url('Index/index'); ?>" target="rightFrame">首页模版</a><i></i></li>
+            <li><cite></cite><a href="right.html" target="rightFrame">数据列表</a><i></i></li>
             <li><cite></cite><a href="imgtable.html" target="rightFrame">图片数据表</a><i></i></li>
             <li><cite></cite><a href="form.html" target="rightFrame">添加编辑</a><i></i></li>
             <li><cite></cite><a href="imglist.html" target="rightFrame">图片列表</a><i></i></li>
