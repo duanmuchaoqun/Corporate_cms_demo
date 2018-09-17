@@ -9,4 +9,9 @@ class Index extends Controller
     {
         return $this->view->fetch('index');
     }
+
+    public function welcome()
+    {
+        return $this->view->fetch('welcome');
+    }
 }
