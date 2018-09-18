@@ -4,7 +4,7 @@
     <div class="layui-header header header-demo">
         <div class="layui-main">
             <a class="logo" href="./index.html">
-                X-admin v1.0
+                MangoCloud v1.0
             </a>
             <ul class="layui-nav" lay-filter="">
                 <li class="layui-nav-item"><img src="./images/logo.png" class="layui-circle" style="border: 2px solid #A9B7B7;" width="35px" alt=""></li>

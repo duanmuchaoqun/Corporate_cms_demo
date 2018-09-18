@@ -28,7 +28,7 @@
             </div>
         </div>
     </form>
-    <xblock><button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon">&#xe640;</i>批量删除</button><button class="layui-btn" onclick="question_add('添加问题','question-add.html','600','500')"><i class="layui-icon">&#xe608;</i>添加</button><span class="x-right" style="line-height:40px">共有数据：88 条</span></xblock>
+    <xblock><button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon">&#xe640;</i>批量删除</button><button class="layui-btn" onclick="new_add('添加新闻','{:url("News/create")}','1000','800')"><i class="layui-icon">&#xe608;</i>添加</button><span class="x-right" style="line-height:40px">共有数据：88 条</span></xblock>
     <table class="layui-table">
         <thead>
         <tr>
@@ -159,7 +159,7 @@
         layer.msg('可以跳到前台具体问题页面',{icon:1,time:1000});
     }
     /*添加*/
-    function question_add(title,url,w,h){
+    function new_add(title,url,w,h){
         x_admin_show(title,url,w,h);
     }
     //编辑
