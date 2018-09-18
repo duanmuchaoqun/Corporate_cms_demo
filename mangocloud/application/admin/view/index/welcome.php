@@ -1,155 +1,185 @@
 {include file="public/header" /}
-    <body>
-    <div class="x-body layui-anim layui-anim-up">
-        <blockquote class="layui-elem-quote">欢迎管理员：
-            <span class="x-red">test</span>！当前时间:2018-04-25 20:50:53</blockquote>
-        <fieldset class="layui-elem-field">
-            <legend>数据统计</legend>
-            <div class="layui-field-box">
-                <div class="layui-col-md12">
-                    <div class="layui-card">
-                        <div class="layui-card-body">
-                            <div class="layui-carousel x-admin-carousel x-admin-backlog" lay-anim="" lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 90px;">
-                                <div carousel-item="">
-                                    <ul class="layui-row layui-col-space10 layui-this">
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>文章数</h3>
-                                                <p>
-                                                    <cite>66</cite></p>
-                                            </a>
-                                        </li>
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>会员数</h3>
-                                                <p>
-                                                    <cite>12</cite></p>
-                                            </a>
-                                        </li>
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>回复数</h3>
-                                                <p>
-                                                    <cite>99</cite></p>
-                                            </a>
-                                        </li>
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>商品数</h3>
-                                                <p>
-                                                    <cite>67</cite></p>
-                                            </a>
-                                        </li>
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>文章数</h3>
-                                                <p>
-                                                    <cite>67</cite></p>
-                                            </a>
-                                        </li>
-                                        <li class="layui-col-xs2">
-                                            <a href="javascript:;" class="x-admin-backlog-body">
-                                                <h3>文章数</h3>
-                                                <p>
-                                                    <cite>6766</cite></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset class="layui-elem-field">
-            <legend>系统通知</legend>
-            <div class="layui-field-box">
-                <table class="layui-table" lay-skin="line">
-                    <tbody>
-                        <tr>
-                            <td >
-                                <a class="x-a" href="/" target="_blank">新版x-admin 2.0上线了</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td >
-                                <a class="x-a" href="/" target="_blank">交流qq群:(519492808)</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </fieldset>
-        <fieldset class="layui-elem-field">
-            <legend>系统信息</legend>
-            <div class="layui-field-box">
-                <table class="layui-table">
-                    <tbody>
-                        <tr>
-                            <th>xxx版本</th>
-                            <td>1.0.180420</td></tr>
-                        <tr>
-                            <th>服务器地址</th>
-                            <td>x.xuebingsi.com</td></tr>
-                        <tr>
-                            <th>操作系统</th>
-                            <td>WINNT</td></tr>
-                        <tr>
-                            <th>运行环境</th>
-                            <td>Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9</td></tr>
-                        <tr>
-                            <th>PHP版本</th>
-                            <td>5.6.27</td></tr>
-                        <tr>
-                            <th>PHP运行方式</th>
-                            <td>cgi-fcgi</td></tr>
-                        <tr>
-                            <th>MYSQL版本</th>
-                            <td>5.5.53</td></tr>
-                        <tr>
-                            <th>ThinkPHP</th>
-                            <td>5.0.18</td></tr>
-                        <tr>
-                            <th>上传附件限制</th>
-                            <td>2M</td></tr>
-                        <tr>
-                            <th>执行时间限制</th>
-                            <td>30s</td></tr>
-                        <tr>
-                            <th>剩余空间</th>
-                            <td>86015.2M</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </fieldset>
-        <fieldset class="layui-elem-field">
-            <legend>开发团队</legend>
-            <div class="layui-field-box">
-                <table class="layui-table">
-                    <tbody>
-                        <tr>
-                            <th>版权所有</th>
-                            <td>xxxxx(xxxx)
-                                <a href="http://www.xxx.com/" class='x-a' target="_blank">访问官网</a></td>
-                        </tr>
-                        <tr>
-                            <th>开发者</th>
-                            <td>马志斌(113664000@qq.com)</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </fieldset>
-        <blockquote class="layui-elem-quote layui-quote-nm">感谢layui,百度Echarts,jquery,本系统由x-admin提供技术支持。</blockquote>
+<body>
+<div class="x-body">
+    <blockquote class="layui-elem-quote">
+        欢迎使用x-admin 后台模版！<span class="f-14">v1.0</span>官方交流群： 519492808
+    </blockquote>
+    <p>登录次数：18 </p>
+    <p>上次登录IP：222.35.131.79.1  上次登录时间： 2017-01-01 11:19:55</p>
+    <fieldset class="layui-elem-field layui-field-title site-title">
+        <legend><a name="default">信息统计</a></legend>
+    </fieldset>
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th>统计</th>
+            <th>资讯库</th>
+            <th>图片库</th>
+            <th>产品库</th>
+            <th>用户</th>
+            <th>管理员</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>总数</td>
+            <td>92</td>
+            <td>9</td>
+            <td>0</td>
+            <td>8</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>今日</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>昨日</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>本周</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>本月</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th colspan="2" scope="col">服务器信息</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th width="30%">服务器计算机名</th>
+            <td><span id="lbServerName">http://127.0.0.1/</span></td>
+        </tr>
+        <tr>
+            <td>服务器IP地址</td>
+            <td>192.168.1.1</td>
+        </tr>
+        <tr>
+            <td>服务器域名</td>
+            <td>x.xuebingsi.com</td>
+        </tr>
+        <tr>
+            <td>服务器端口 </td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>服务器IIS版本 </td>
+            <td>Microsoft-IIS/6.0</td>
+        </tr>
+        <tr>
+            <td>本文件所在文件夹 </td>
+            <td>D:\WebSite\HanXiPuTai.com\XinYiCMS.Web\</td>
+        </tr>
+        <tr>
+            <td>服务器操作系统 </td>
+            <td>Microsoft Windows NT 5.2.3790 Service Pack 2</td>
+        </tr>
+        <tr>
+            <td>系统所在文件夹 </td>
+            <td>C:\WINDOWS\system32</td>
+        </tr>
+        <tr>
+            <td>服务器脚本超时时间 </td>
+            <td>30000秒</td>
+        </tr>
+        <tr>
+            <td>服务器的语言种类 </td>
+            <td>Chinese (People's Republic of China)</td>
+        </tr>
+        <tr>
+            <td>.NET Framework 版本 </td>
+            <td>2.050727.3655</td>
+        </tr>
+        <tr>
+            <td>服务器当前时间 </td>
+            <td>2017-01-01 12:06:23</td>
+        </tr>
+        <tr>
+            <td>服务器IE版本 </td>
+            <td>6.0000</td>
+        </tr>
+        <tr>
+            <td>服务器上次启动到现在已运行 </td>
+            <td>7210分钟</td>
+        </tr>
+        <tr>
+            <td>逻辑驱动器 </td>
+            <td>C:\D:\</td>
+        </tr>
+        <tr>
+            <td>CPU 总数 </td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>CPU 类型 </td>
+            <td>x86 Family 6 Model 42 Stepping 1, GenuineIntel</td>
+        </tr>
+        <tr>
+            <td>虚拟内存 </td>
+            <td>52480M</td>
+        </tr>
+        <tr>
+            <td>当前程序占用内存 </td>
+            <td>3.29M</td>
+        </tr>
+        <tr>
+            <td>Asp.net所占内存 </td>
+            <td>51.46M</td>
+        </tr>
+        <tr>
+            <td>当前Session数量 </td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>当前SessionID </td>
+            <td>gznhpwmp34004345jz2q3l45</td>
+        </tr>
+        <tr>
+            <td>当前系统用户名 </td>
+            <td>NETWORK SERVICE</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="layui-footer footer footer-demo">
+    <div class="layui-main">
+        <p>感谢layui,百度Echarts,jquery</p>
+        <p>
+            <a href="/">
+                Copyright ©2017 x-admin v2.3 All Rights Reserved.
+            </a>
+        </p>
+        <p>
+            <a href="./" target="_blank">
+                本后台系统由X前端框架提供前端技术支持
+            </a>
+        </p>
     </div>
-        <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        </script>
-    </body>
+</div>
+{include file="public/foot_js" /}
+</body>
 </html>
