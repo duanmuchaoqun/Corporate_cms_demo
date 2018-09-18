@@ -19,11 +19,10 @@ class Banner extends Controller
     /**
      * 显示创建资源表单页.
      *
-     * @return \think\Response
      */
     public function create()
     {
-        //
+        return $this->view->fetch('create');
     }
 
     /**
