@@ -43,7 +43,7 @@
             </li>
             <li class="layui-nav-item">
                 <a class="javascript:;" href="javascript:;">
-                    <i class="layui-icon" style="top: 3px;">&#xe613;</i><cite>管理员管理</cite>
+                    <i class="layui-icon" style="top: 3px;">&#xe612;</i><cite>管理员管理</cite>
                 </a>
                 <dl class="layui-nav-child">
                     <dd class="">
