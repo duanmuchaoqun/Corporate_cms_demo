@@ -5,7 +5,6 @@ namespace app\admin\model;
 use app\admin\base\BaseModel;
 use app\admin\validate\User;
 use think\Exception;
-use think\facade\Request;
 
 
 class ManagerUserModel extends BaseModel
@@ -28,7 +27,6 @@ class ManagerUserModel extends BaseModel
         if (!$this->userValidate->check($data)) {
             return ['code' => 101, 'data' => [], 'msg' => $this->userValidate->getError()];
         }
-
         try {
             $data['password'] = md5($data['password']);
             $data['create_time'] = time();
